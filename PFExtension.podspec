@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/pengfei2015/PFExtension.git", :tag => "#{s.version}" }
-  s.source_files  = "Soureces/*.swift"
+  s.source_files  = "Sources/*.swift"
 
 end
