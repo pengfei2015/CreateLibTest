@@ -12,6 +12,16 @@
 		8815BA042005B6B30070CEB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8815BA022005B6B30070CEB4 /* Main.storyboard */; };
 		8815BA062005B6B30070CEB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8815BA052005B6B30070CEB4 /* Assets.xcassets */; };
 		8815BA092005B6B30070CEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8815BA072005B6B30070CEB4 /* LaunchScreen.storyboard */; };
+		8815BA1A2005B7CB0070CEB4 /* String+PFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815BA112005B7CB0070CEB4 /* String+PFExtension.swift */; };
+		8815BA1B2005B7CB0070CEB4 /* UILabel+PFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815BA122005B7CB0070CEB4 /* UILabel+PFExtension.swift */; };
+		8815BA1C2005B7CB0070CEB4 /* Collection+PFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815BA132005B7CB0070CEB4 /* Collection+PFExtension.swift */; };
+		8815BA1D2005B7CB0070CEB4 /* UIScreen+PFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815BA142005B7CB0070CEB4 /* UIScreen+PFExtension.swift */; };
+		8815BA1E2005B7CB0070CEB4 /* Date+PFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815BA152005B7CB0070CEB4 /* Date+PFExtension.swift */; };
+		8815BA1F2005B7CB0070CEB4 /* UserDefaults+PFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815BA162005B7CB0070CEB4 /* UserDefaults+PFExtension.swift */; };
+		8815BA202005B7CB0070CEB4 /* Double+PFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815BA172005B7CB0070CEB4 /* Double+PFExtension.swift */; };
+		8815BA212005B7CB0070CEB4 /* UIColor+PFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815BA182005B7CB0070CEB4 /* UIColor+PFExtension.swift */; };
+		8815BA222005B7CB0070CEB4 /* UIView+PFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815BA192005B7CB0070CEB4 /* UIView+PFExtension.swift */; };
+		8815BA242005B7F80070CEB4 /* PFConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815BA232005B7F80070CEB4 /* PFConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		8815BA052005B6B30070CEB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8815BA082005B6B30070CEB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8815BA0A2005B6B30070CEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8815BA112005B7CB0070CEB4 /* String+PFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+PFExtension.swift"; sourceTree = "<group>"; };
+		8815BA122005B7CB0070CEB4 /* UILabel+PFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+PFExtension.swift"; sourceTree = "<group>"; };
+		8815BA132005B7CB0070CEB4 /* Collection+PFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+PFExtension.swift"; sourceTree = "<group>"; };
+		8815BA142005B7CB0070CEB4 /* UIScreen+PFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+PFExtension.swift"; sourceTree = "<group>"; };
+		8815BA152005B7CB0070CEB4 /* Date+PFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+PFExtension.swift"; sourceTree = "<group>"; };
+		8815BA162005B7CB0070CEB4 /* UserDefaults+PFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+PFExtension.swift"; sourceTree = "<group>"; };
+		8815BA172005B7CB0070CEB4 /* Double+PFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+PFExtension.swift"; sourceTree = "<group>"; };
+		8815BA182005B7CB0070CEB4 /* UIColor+PFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+PFExtension.swift"; sourceTree = "<group>"; };
+		8815BA192005B7CB0070CEB4 /* UIView+PFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+PFExtension.swift"; sourceTree = "<group>"; };
+		8815BA232005B7F80070CEB4 /* PFConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PFConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,7 @@
 		8815B9F22005B6B30070CEB4 = {
 			isa = PBXGroup;
 			children = (
+				8815BA102005B6F00070CEB4 /* Sources */,
 				8815B9FD2005B6B30070CEB4 /* PFExtension */,
 				8815B9FC2005B6B30070CEB4 /* Products */,
 			);
@@ -62,6 +83,24 @@
 				8815BA0A2005B6B30070CEB4 /* Info.plist */,
 			);
 			path = PFExtension;
+			sourceTree = "<group>";
+		};
+		8815BA102005B6F00070CEB4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8815BA232005B7F80070CEB4 /* PFConstants.swift */,
+				8815BA132005B7CB0070CEB4 /* Collection+PFExtension.swift */,
+				8815BA152005B7CB0070CEB4 /* Date+PFExtension.swift */,
+				8815BA172005B7CB0070CEB4 /* Double+PFExtension.swift */,
+				8815BA112005B7CB0070CEB4 /* String+PFExtension.swift */,
+				8815BA182005B7CB0070CEB4 /* UIColor+PFExtension.swift */,
+				8815BA122005B7CB0070CEB4 /* UILabel+PFExtension.swift */,
+				8815BA142005B7CB0070CEB4 /* UIScreen+PFExtension.swift */,
+				8815BA192005B7CB0070CEB4 /* UIView+PFExtension.swift */,
+				8815BA162005B7CB0070CEB4 /* UserDefaults+PFExtension.swift */,
+			);
+			name = Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +175,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8815BA1B2005B7CB0070CEB4 /* UILabel+PFExtension.swift in Sources */,
+				8815BA1A2005B7CB0070CEB4 /* String+PFExtension.swift in Sources */,
 				8815BA012005B6B30070CEB4 /* ViewController.swift in Sources */,
+				8815BA1E2005B7CB0070CEB4 /* Date+PFExtension.swift in Sources */,
+				8815BA1D2005B7CB0070CEB4 /* UIScreen+PFExtension.swift in Sources */,
 				8815B9FF2005B6B30070CEB4 /* AppDelegate.swift in Sources */,
+				8815BA1F2005B7CB0070CEB4 /* UserDefaults+PFExtension.swift in Sources */,
+				8815BA212005B7CB0070CEB4 /* UIColor+PFExtension.swift in Sources */,
+				8815BA222005B7CB0070CEB4 /* UIView+PFExtension.swift in Sources */,
+				8815BA1C2005B7CB0070CEB4 /* Collection+PFExtension.swift in Sources */,
+				8815BA202005B7CB0070CEB4 /* Double+PFExtension.swift in Sources */,
+				8815BA242005B7F80070CEB4 /* PFConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
